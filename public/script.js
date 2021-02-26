@@ -1,1 +1,6 @@
-console.log('Your script is running in this website!')
+// Example of a communication client to server
+
+fetch('http:localhost:3000/sendMessage',{
+	method:'post',
+	body:'Hello World!'
+})
